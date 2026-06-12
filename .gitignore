@@ -1,0 +1,19 @@
+# Data (downloaded from public repositories; see data/README.md)
+data/*
+!data/README.md
+
+# Analysis outputs
+*_results_GSEA_only/
+*.pdf
+*.png
+*.h5ad
+*.qs
+*.rds
+
+# OS / editor
+.DS_Store
+.Rhistory
+.RData
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
